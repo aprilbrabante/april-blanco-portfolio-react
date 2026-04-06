@@ -7,7 +7,8 @@ import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
-
+import projectImg7 from '../assets/project7.png';
+import projectImg8 from '../assets/project8.png';
 
 export const assets = {
     profileImg,
@@ -96,6 +97,24 @@ export const projects = [
     icons: [FaVuejs, FaNodeJs, FaDatabase],
     demo: "https://blog-client-sand.vercel.app/",
     code: "https://github.com/aprilbrabante/blog_client",
+  },
+  {
+    title: "IP Geolocation",
+    description: "A simple web app for searching specific IP address information like city, region and country.",
+    image: projectImg7,
+    tech: ["React.js", "Node.js", "MongoDB"],
+    icons: [FaReact, FaNodeJs, FaDatabase],
+    demo: "https://geo-react-api-client.vercel.app/",
+    code: "https://github.com/aprilbrabante/geo-react-api-client",
+  },
+  {
+    title: "Sales API (Fastify)",
+    description: "The Sales API (Fastify) is a RESTful backend service built using the high-performance Fastify framework, designed to manage and process sales-related data efficiently. It provides a structured set of endpoints for handling core business operations such as creating, retrieving, updating, and deleting sales records.",
+    image: projectImg8,
+    tech: ["Node.js", "MongoDB"],
+    icons: [FaNodeJs, FaDatabase],
+    demo: "https://sales-api-fastify.onrender.com/docs#/",
+    code: "https://github.com/aprilbrabante/sales-api-fastify",
   },
   {
     title: "Fitness Tracker",
