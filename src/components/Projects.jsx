@@ -6,10 +6,10 @@ import { FaArrowRight } from 'react-icons/fa'
 const Projects = () => {
   return (
     <motion.div
-        initial={{opacity:0, y:50}}
-        whileInView={{opacity:1, y:0}}
-        transition={{duration:1, ease:'easeOut'}}
-        viewport={{once: false, amount:0.2}}
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: 'easeOut' }}
+        viewport={{ once: true, amount: 0.2 }}  
         id='projects'
         className='py-20 bg-dark-200'
     >

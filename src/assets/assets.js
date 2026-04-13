@@ -143,7 +143,7 @@ export const workData = [
     color: "purple"
   },
   {
-    role: "System Engineer 1",
+    role: "Senior Developer",
     company: "SHI Designing and Manufacturing Inc.",
     duration: "August 2011 - February 2022",
     description:
