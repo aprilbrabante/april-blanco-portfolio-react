@@ -37,14 +37,14 @@ const Navbar = () => {
                     transition-all duration-300 group-hover:w-full'></span>
                 </a>
 
-                <a href="#projects" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                    <span>Projects</span>
+                <a href="#experience" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                    <span>Experience</span>
                     <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple 
                     transition-all duration-300 group-hover:w-full'></span>
                 </a>
 
-                <a href="#experience" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                    <span>Experience</span>
+                <a href="#projects" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                    <span>Projects</span>
                     <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple 
                     transition-all duration-300 group-hover:w-full'></span>
                 </a>
@@ -89,12 +89,12 @@ const Navbar = () => {
                         <span>Skills</span>
                     </a>
 
-                    <a onClick={()=> setShowMenu(!showMenu)} href="#projects" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                        <span>Projects</span>
-                    </a>
-
                     <a onClick={()=> setShowMenu(!showMenu)} href="#experience" className='relative text-white/80 transition duration-300 hover:text-purple group'>
                         <span>Experience</span>
+                    </a>
+
+                    <a onClick={()=> setShowMenu(!showMenu)} href="#projects" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                        <span>Projects</span>
                     </a>
 
                     <a onClick={()=> setShowMenu(!showMenu)} href="#contact" className='relative text-white/80 transition duration-300 hover:text-purple group'>
