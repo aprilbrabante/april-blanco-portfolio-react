@@ -1,4 +1,4 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaPhoenixFramework } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaPhoenixFramework, FaMicrosoft } from 'react-icons/fa';
 
 import profileImg from '../assets/april.png';
 import projectImg1 from '../assets/project1.avif';
@@ -9,6 +9,7 @@ import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
 import projectImg7 from '../assets/project7.png';
 import projectImg8 from '../assets/project8.png';
+import projectImg9 from '../assets/powerapps.png';
 
 export const assets = {
     profileImg,
@@ -80,6 +81,17 @@ export const skills = [
 
 
 export const projects = [
+
+  {
+    title: "Annual Course Monitoring System",
+    description: "A PowerApps web application designed for a university to manage, update, and maintain curriculum courses.",
+    image: projectImg9,
+    tech: ["PowerApps", "PowerAutomate", "Dataverse"],
+    icons: [FaMicrosoft, FaMicrosoft, FaDatabase],
+    demo: "https://drive.google.com/file/d/1jF0q0yz3rZKQkv7IZvZW_hODBxJY41pe/view?usp=sharing",
+    code: "",
+    credentials: "This project contains proprietary company information; therefore, the source code cannot be shared. A limited visual preview is provided through a screenshot.",
+  },
   {
     title: "Sales API (Fastify)",
     description: "The Sales API (Fastify) is a RESTful backend service built using the high-performance Fastify framework, designed to manage and process sales-related data efficiently. It provides a structured set of endpoints for handling core business operations such as creating, retrieving, updating, and deleting sales records.",

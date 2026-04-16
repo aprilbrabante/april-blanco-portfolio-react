@@ -24,10 +24,20 @@ const ProjectCard = ({title, description, image, tech, demo, code, credentials})
                 rounded-lg font-medium hover:bg-purple-700 transition duration-300'>
                     View Demo
                 </a>
-                <a href={code} target='_blank' className='flex-1 text-center px-4 py-2 bg-purple
-                rounded-lg font-medium hover:bg-purple-700 transition duration-300'>
+                {title === "Annual Course Monitoring System" ? (
+                <div className="flex-1 text-center px-4 py-2 bg-gray-400 rounded-lg font-medium cursor-not-allowed">
+                    Code Unavailable
+                </div>
+                ) : (
+                <a
+                    href={code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
+                >
                     Code
                 </a>
+                )}
 
             </div>
 
